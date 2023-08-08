@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salu2</title>
+    <script src="eventos.js"></script>
     
 </head>
 <body>
+    <script src="eventos.js"></script>
+    <div id="midiv">
     <button id="btn">Saludar</button>
+</div>
     <script>
  function saludar() {
         alert('¡Hola!');
@@ -16,5 +20,15 @@
     const botonSaludar = document.getElementById('btn');
     botonSaludar.addEventListener('click', saludar);
 </script>
+
+<style> 
+div {
+padding: 5px;
+background-color: green;
+}
+
+
+
+</style>
 </body>
 </html>
