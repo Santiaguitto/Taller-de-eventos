@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salu2</title>
+    
 </head>
 <body>
-    <button>Saludar</button>
+    <button id="btn">Saludar</button>
+    <script>
+ function saludar() {
+        alert('¡Hola!');
+    }
+
+    const botonSaludar = document.getElementById('btn');
+    botonSaludar.addEventListener('click', saludar);
+</script>
 </body>
 </html>
